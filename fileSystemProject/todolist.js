@@ -5,7 +5,7 @@ const app = express()
 
 app.use(bodyParser.json());
 
-
+// This is a get request response.
 
 app.get('/todos', (req, res) => {
 
